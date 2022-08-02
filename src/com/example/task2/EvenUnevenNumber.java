@@ -1,4 +1,4 @@
-package tasks2;
+package com.example.task2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

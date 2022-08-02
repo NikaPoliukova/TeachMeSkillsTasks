@@ -1,4 +1,4 @@
-package com.example;
+package com.example.task0;
 
 public class Hello {
     public static void main(String[] args) {

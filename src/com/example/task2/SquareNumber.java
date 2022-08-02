@@ -1,4 +1,4 @@
-package tasks2;
+package com.example.task2;
 
 public class SquareNumber {
     public static void findSquareNumber() {

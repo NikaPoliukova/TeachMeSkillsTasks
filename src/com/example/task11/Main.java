@@ -1,18 +1,17 @@
 package com.example.task11;
 
 
-import com.example.task11.Exceptions.Numbers555NotFoundException;
+import com.example.task11.Exceptions.NumberNotFoundException;
 import com.example.task11.Exceptions.SequenceNotFoundException;
-import com.example.task11.Exceptions.SymbolsABCNotFoundException;
+import com.example.task11.Exceptions.SymbolNotFoundException;
 import com.example.task11.additional.Exceptions.WrongLoginException;
 import com.example.task11.additional.Exceptions.WrongPasswordException;
 import com.example.task11.additional.InformationAboutPersonService;
 
 
-
 public class Main {
 
-    public static void main(String[] args) throws SymbolsABCNotFoundException, Numbers555NotFoundException,
+    public static void main(String[] args) throws SymbolNotFoundException, NumberNotFoundException,
             SequenceNotFoundException, WrongLoginException, WrongPasswordException {
         String pattern = "(\\d{4}-[a-zA-Z]{3}-){2}(\\d[a-zA-Z]){2}";
         String numberDocument = "5554-aBC-5678-DeF-1a2b";
@@ -20,11 +19,12 @@ public class Main {
         try {
             System.out.println(" # Ќайти abc в строке: ");
             Service.findABCInString(numberDocument);
+
             System.out.println("# ѕроверить начинаетс€ ли номер документа с последовательности 555: ");
             Service.checkStartOfStringForNumber(numberDocument);
             System.out.println("# ѕроверить заканчиваетс€ ли номер документа на 1a2b: ");
             Service.checkEndOfLineCharacters(numberDocument);
-        } catch (SymbolsABCNotFoundException | Numbers555NotFoundException | SequenceNotFoundException e) {
+        } catch (SymbolNotFoundException | NumberNotFoundException | SequenceNotFoundException e) {
             e.printStackTrace();
         }
 

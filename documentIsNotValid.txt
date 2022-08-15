@@ -1,0 +1,3 @@
+15484352dc00000 document is not start with docnum or contract
+docu256856 length document is not valid
+contra215646500 document is not start with docnum or contract

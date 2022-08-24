@@ -1,0 +1,10 @@
+contractic12154 - Document is validate
+contract5646500 - Document is validate
+docnum481219562 - Document is validate
+docum1248784545 - document is not start with 'docum' or 'contract'
+docu256856 -  length document is not valid
+cont1184451212548489 -  length document is not valid
+15484352dc00000 - document is not start with 'docum' or 'contract'
+docum1248584545 - document is not start with 'docum' or 'contract'
+contract2158783 - Document is validate
+contra215646500 - document is not start with 'docum' or 'contract'
